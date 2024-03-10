@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header class="header container">
+        <nav>
+            <ul class="header__menu">
+                <li>
+                    <a href="header__link" href="#about">About</a>
+                </li>
+                <li>
+                    <a href="header__link" href="#project">Projects</a>
+                </li>
+                <li>
+                    <a href="header__link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container section">
+            <img src="public/joao.jpeg" class="hero__profile-photo">
+            <h2>Hi, I'm João!</h2>
+            <h1>SOFTWARE DEVELOPER</h1>
+            <p>A passionate <span class="green-highlight">Software Developer</span> specialized in developing responsive and  interactive websites, emphasizing user-friendly design and  functionality.</p>
+            <a class="more btn" href="#about">More</a>
+        </section>
+        <section class="about container section" id="about">
+            <div class="about__content">
+                <h2 class="about__title">About</h2>
+                <p class="about__description">
+                    Hello there, I’m João! 
+                </p>
+                <p class="about__description">
+                    I have dedicated my time to studying and improving in the area of software development. 
+                </p>
+                <p class="about__description">
+                    During this period, I have acquired knowledge and practice in essential technologies, including HTML, CSS and JavaScript through courses and self-study
+                </p>
+            </div>
+            <div class="about__technologies">
+                <h2 class="about__technologies-title">Technologies</h2>
+                <ul class="about__technologies-list">
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+                <ul class="about__technologies-list">
+                    <li>C</li>
+                    <li>Node.js</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+        </section>
+        <section class="projects container section" id="project">
+            <h2 class="projects__title">Projects</h2>
+            <p class="projects__description">A collection of projects that I crafted during my learning and study journey.</p>
+            <div class="projects__container">
+                <div class="worldchess">
+                    <div class="worldchess-img">
+                        <img src="public/worldchess.png">
+                    </div>
+                    <div class="worldchess-content">
+                        <h3>World Chess</h3>
+                        <p>This website features an online chess game powered by <span class="highlight">JavaScript</span>, <span class="highlight">Node.js</span>, and <span class="highlight">WebSockets</span>, allowing for real-time, multiplayer matches across the internet.</p>
+                        <a class="website btn" href="">Website</a>
+                    </div>
+                </div>
+                <div class="jiu-jitsu">
+                    <div class="jiu-jitsu-content">
+                        <h3>Jiu-Jitsu</h3>
+                        <p>As a Jiu-Jitsu practitioner and programming enthusiast, I created a functional public website for my martial arts association to promote the sport and hone my skills, developed in <span class="highlight">JavaScript</span>.</p>
+                        <a class="website btn" href="">Website</a>
+                    </div>
+                    <div class="jiu-jitsu-img">
+                        <img src="public/jiu-jitsu.png">
+                    </div>
+                </div>
+                <div class="imperativePrograming">
+                    <div class="imperativePrograming-img">
+                        <img src="public/impProg.png">
+                    </div>
+                    <div class="imperativePrograming-content">
+                        <h3>imperative Programing</h3>
+                        <p>A nutritional clinic program developed in C. Final project for the imperative programming course at the Instituto Politécnico do Cávado e do Ave.</p>
+                        <a class="website btn" href="">Website</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact container section">
+            <h1 class="contact__title" id="contact">Get In Contact</h1>
+            <p class="contact__content">Feel free to reach out for collaborations or inquiries. Let's connect and explore how we can work together!</p>
+            <a class="contact btn" href="">Reach Out</a>
+        </section>
+    </main>
+</body>
+</html>
