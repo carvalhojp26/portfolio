@@ -1,0 +1,117 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15rem;
+}
+
+.projects__title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--color-title);
+    margin-bottom: 2rem;
+}
+
+.projects__description {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--color-text);
+    margin-bottom: 5rem;
+}
+
+.worldchess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.worldchess-img img {
+    width: 600px;
+    height: 600px;
+}
+
+.worldchess-content {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.worldchess-content h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-title);
+}
+
+.worldchess-content p {
+    width: 400px;
+}
+
+.jiu-jitsu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.jiu-jitsu-img img {
+    width: 600px;
+    height: 600px;
+}
+
+.jiu-jitsu-content {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.jiu-jitsu-content h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-title);
+}
+
+.jiu-jitsu-content p {
+    width: 400px;
+}
+
+.imperativePrograming {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imperativePrograming-img img {
+    width: 600px;
+    height: 600px;
+}
+
+.imperativePrograming-content {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.imperativePrograming h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-title);
+}
+
+.imperativePrograming-content p {
+    width: 400px;
+}

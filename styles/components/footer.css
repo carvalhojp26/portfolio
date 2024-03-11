@@ -1,0 +1,15 @@
+.footer__text {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    flex-direction: column;
+    font-weight: 100;
+    color: var(--color-font);
+}
+
+@media (max-width: 1310px) {
+    .footer__text {
+        font-size: 12px;
+    }
+}

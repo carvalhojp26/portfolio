@@ -14,13 +14,13 @@
         <nav>
             <ul class="header__menu">
                 <li>
-                    <a href="header__link" href="#about">About</a>
+                    <a class="header__link" href="#about">About</a>
                 </li>
                 <li>
-                    <a href="header__link" href="#project">Projects</a>
+                    <a class="header__link" href="#project">Projects</a>
                 </li>
                 <li>
-                    <a href="header__link" href="#contact">Contact</a>
+                    <a class="header__link" href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -37,27 +37,33 @@
             <div class="about__content">
                 <h2 class="about__title">About</h2>
                 <p class="about__description">
-                    Hello there, I’m João! 
+                    Hello there, I’m <span class="highlight">João!</span>
                 </p>
                 <p class="about__description">
                     I have dedicated my time to studying and improving in the area of software development. 
                 </p>
-                <p class="about__description">
-                    During this period, I have acquired knowledge and practice in essential technologies, including HTML, CSS and JavaScript through courses and self-study
+                <p class="about__description">  
+                    During this period, I have acquired knowledge and practice in essential technologies, including <span class="highlight">HTML</span>, <span class="highlight">CSS</span> and <span class="highlight">JavaScript</span> through courses and self-study.
                 </p>
             </div>
             <div class="about__technologies">
                 <h2 class="about__technologies-title">Technologies</h2>
-                <ul class="about__technologies-list">
-                    <li>JavaScript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                </ul>
-                <ul class="about__technologies-list">
-                    <li>C</li>
-                    <li>Node.js</li>
-                    <li>Git</li>
-                </ul>
+                <div class="about__technologies-list">
+                    <div>
+                        <ul class="about__technologies-ul">
+                            <li class="about__technologies-li">JavaScript</li>
+                            <li class="about__technologies-li">HTML</li>
+                            <li class="about__technologies-li">CSS</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="about__technologies-ul">
+                            <li class="about__technologies-li">C</li>
+                            <li class="about__technologies-li">Node.js</li>    
+                            <li class="about__technologies-li">Git</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="projects container section" id="project">
@@ -91,7 +97,7 @@
                     <div class="imperativePrograming-content">
                         <h3>imperative Programing</h3>
                         <p>A nutritional clinic program developed in C. Final project for the imperative programming course at the Instituto Politécnico do Cávado e do Ave.</p>
-                        <a class="website btn" href="">Website</a>
+                        <a class="website btn" href="">Program</a>
                     </div>
                 </div>
             </div>
@@ -99,8 +105,13 @@
         <section class="contact container section">
             <h1 class="contact__title" id="contact">Get In Contact</h1>
             <p class="contact__content">Feel free to reach out for collaborations or inquiries. Let's connect and explore how we can work together!</p>
-            <a class="contact btn" href="">Reach Out</a>
+            <a class="contact__button btn" href="">Reach Out</a>
         </section>
+        <footer>
+            <div class="footer__text container section">
+                <p>~João~</p>
+            </div>
+        </footer>
     </main>
 </body>
 </html>

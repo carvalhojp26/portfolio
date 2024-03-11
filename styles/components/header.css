@@ -1,0 +1,21 @@
+.header__menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.header__link {
+    margin: 2rem;
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.header__link:hover {
+    color: var(--color-title);
+    transition: 0.3s ease;
+}
