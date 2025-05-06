@@ -1,3 +1,23 @@
+<script>
+    const text = "SOFTWARE DEVELOPER";
+    const target = document.getElementById("typewriter");
+    let index = 0;
+  
+    function typeNext() {
+      if (index < text.length) {
+        target.textContent += text[index];
+        index++;
+        setTimeout(typeNext, 100); // Speed: 100ms per character
+      } else {
+        target.classList.remove('cursor');
+      }
+    }
+  
+    target.classList.add('cursor');
+    typeNext();
+  </script>
+  
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -27,9 +47,9 @@
     </header>
     <main>
         <section class="hero container section">
-            <img src="assets/joao.jpeg" class="hero__profile-photo">
+            <img src="assets/joao.jpg" class="hero__profile-photo">
             <h2>Hi, I'm João!</h2>
-            <h1>SOFTWARE DEVELOPER</h1>
+            <h1 class="animation"><span class="typing-text">SOFTWARE DEVELOPER</span></h1>
             <p>A passionate <span class="green-highlight">Software Developer</span> specialized in developing responsive and  interactive websites, emphasizing user-friendly design and  functionality.</p>
             <a class="more btn" href="#about">More</a>
         </section>
@@ -43,22 +63,22 @@
                     I'm a <span class="highlight">Software Developer</span> based in Braga, Portugal. I am passionate about creating and developing responsive and interactive websites, emphasizing user-friendly design and functionality.
                 </p>
                 <p class="about__description">  
-                   My specialties include <span class="highlight">JavaScript</span>, <span class="highlight">HTML</span>, and <span class="highlight">CSS</span>.
+                   My specialties include <span class="highlight">React.JS</span>, <span class="highlight">Node.JS</span>, and <span class="highlight">Python</span>.
             </div>
             <div class="about__technologies">
                 <h2 class="about__technologies-title">Technologies</h2>
                 <div class="about__technologies-list">
                     <div>
                         <ul class="about__technologies-ul">
-                            <li class="about__technologies-li">JavaScript</li>
-                            <li class="about__technologies-li">HTML</li>
-                            <li class="about__technologies-li">CSS</li>
+                            <li class="about__technologies-li">React.JS</li>
+                            <li class="about__technologies-li">Next.JS</li>
+                            <li class="about__technologies-li">Tailwind CSS</li>
                         </ul>
                     </div>
                     <div>
                         <ul class="about__technologies-ul">
-                            <li class="about__technologies-li">C</li>
-                            <li class="about__technologies-li">Node.js</li>    
+                            <li class="about__technologies-li">Python</li>
+                            <li class="about__technologies-li">Node.JS</li>    
                             <li class="about__technologies-li">Git</li>
                         </ul>
                     </div>
