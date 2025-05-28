@@ -52,19 +52,19 @@
     width: 400px;
 }
 
-.jiu-jitsu {
+.nft {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.jiu-jitsu-img img {
+.nft-img img {
     width: 600px;
     height: 600px;
 }
 
-.jiu-jitsu-content {
+.nft-content {
     width: 600px;
     height: 600px;
     display: flex;
@@ -74,13 +74,13 @@
     gap: 2rem;
 }
 
-.jiu-jitsu-content h3 {
+.nft-content h3 {
     font-size: 2rem;
     font-weight: 700;
     color: var(--color-title);
 }
 
-.jiu-jitsu-content p {
+.nft-content p {
     width: 400px;
 }
 
