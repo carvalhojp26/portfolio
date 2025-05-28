@@ -136,17 +136,17 @@
         width: 300px;
     }
 
-    .jiu-jitsu-img img {
+    .nft-img img {
         width: 400px;
         height: 400px;
     }
 
-    .jiu-jitsu-content {
+    .nft-content {
         width: 400px;
         height: 400px;
     }
 
-    .jiu-jitsu-content p {
+    .nft-content p {
         width: 300px;
     }
 
@@ -186,18 +186,18 @@
         font-size: 0.8rem;
     }
 
-    .jiu-jitsu-img img {
+    .nft-img img {
         width: 300px;
         height: 300px;
     }
 
-    .jiu-jitsu-content {
+    .nft-content {
         width: 300px;
         height: 300px;
         gap: 1rem;
     }
 
-    .jiu-jitsu-content p {
+    .nft-content p {
         width: 250px;
         font-size: 0.8rem;
     }
@@ -228,7 +228,7 @@
         flex-direction: column;
     }
 
-    .jiu-jitsu {
+    .nft {
         flex-direction: column-reverse;
     }
 
